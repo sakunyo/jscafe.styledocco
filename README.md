@@ -1,12 +1,11 @@
 # jsCafe.styledocco
 
-jscafe#17 2013/12/22
+jscafe#17 2013/12/22 [@sakunyo](https://twitter.com/sakunyo)
 
-[@sakunyo](https://twitter.com/sakunyo)
 
 ## サンプルコード
 ### CSSを使った簡単な例
-[https://www.dropbox.com/home/public/jscafe-styledocco/01-css/docs/foo.html](https://www.dropbox.com/home/public/jscafe-styledocco/01-css/docs/foo.html)
+[https://dl.dropboxusercontent.com/u/7072504/jscafe-styledocco/01-css/docs/foo.html](https://dl.dropboxusercontent.com/u/7072504/jscafe-styledocco/01-css/docs/foo.html)
 
     01-css
     ├── docs
@@ -18,7 +17,7 @@ jscafe#17 2013/12/22
 
 
 ### jQuery を使った簡単な例
-[https://www.dropbox.com/home/public/jscafe-styledocco/01-css-jquery/docs/foo.html](https://www.dropbox.com/home/public/jscafe-styledocco/01-css-jquery/docs/foo.html)
+[https://dl.dropboxusercontent.com/u/7072504/jscafe-styledocco/01-css-jquery/docs/foo.html](https://dl.dropboxusercontent.com/u/7072504/jscafe-styledocco/01-css-jquery/docs/foo.html)
 
     01-css-jquery
     ├── docs
@@ -30,7 +29,7 @@ jscafe#17 2013/12/22
 
 
 ### 状態(:hover, :focus の例
-[https://www.dropbox.com/home/public/jscafe-styledocco/01-css-state/docs/foo.html](https://www.dropbox.com/home/public/jscafe-styledocco/01-css-state/docs/foo.html)
+[https://dl.dropboxusercontent.com/u/7072504/jscafe-styledocco/01-css-state/docs/foo.html](https://dl.dropboxusercontent.com/u/7072504/jscafe-styledocco/01-css-state/docs/foo.html)
 
     01-css-state
     ├── docs
@@ -42,7 +41,7 @@ jscafe#17 2013/12/22
 
 
 ### SASS のドキュメント化
-[https://www.dropbox.com/home/public/jscafe-styledocco/02-sass/docs/foo.html](https://www.dropbox.com/home/public/jscafe-styledocco/02-sass/docs/foo.html)
+[https://dl.dropboxusercontent.com/u/7072504/jscafe-styledocco/02-sass/docs/foo.html](https://dl.dropboxusercontent.com/u/7072504/jscafe-styledocco/02-sass/docs/foo.html)
 
     02-sass
     ├── docs
@@ -57,7 +56,7 @@ jscafe#17 2013/12/22
 
 
 ### LESS のドキュメント化
-[https://www.dropbox.com/home/public/jscafe-styledocco/03-less/docs/foo.html](https://www.dropbox.com/home/public/jscafe-styledocco/03-less/docs/foo.html)
+[https://dl.dropboxusercontent.com/u/7072504/jscafe-styledocco/03-less/docs/foo.html](https://dl.dropboxusercontent.com/u/7072504/jscafe-styledocco/03-less/docs/foo.html)
 
     03-less
     ├── docs
@@ -70,7 +69,7 @@ jscafe#17 2013/12/22
 
 
 ### SASS と Compass の組み合わせ
-[https://www.dropbox.com/home/public/jscafe-styledocco/04-sass-compass/docs/screen.html](https://www.dropbox.com/home/public/jscafe-styledocco/04-sass-compass/docs/screen.html)
+[https://dl.dropboxusercontent.com/u/7072504/jscafe-styledocco/04-sass-compass/docs/screen.html](https://dl.dropboxusercontent.com/u/7072504/jscafe-styledocco/04-sass-compass/docs/screen.html)
 
     04-sass-compass
     ├── config.rb
@@ -87,7 +86,7 @@ jscafe#17 2013/12/22
 
 
 ### bootstrap v3 で試してみた
-[https://www.dropbox.com/home/public/jscafe-styledocco/05-bootstrap/docs/bootstrap.html](https://www.dropbox.com/home/public/jscafe-styledocco/05-bootstrap/docs/bootstrap.html)
+[https://dl.dropboxusercontent.com/u/7072504/jscafe-styledocco/05-bootstrap/docs/bootstrap.html](https://dl.dropboxusercontent.com/u/7072504/jscafe-styledocco/05-bootstrap/docs/bootstrap.html)
 
 標準的なディレクトリの場合 less ディレクトリにすべてまとまっているが
 実際には bootstrap.less と theme.less のみ別途読み込むはずなのでディレクトリを分けた。
