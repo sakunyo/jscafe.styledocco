@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/*
+## .foo block
+.foo > .bar
+
+	<p>.foo
+		<span class="bar">.bar</span>
+	</p>
+*/
+.foo {
+  color: blue; }
+  .foo .bar {
+    background-color: green; }
+
+/*
+### ほかのSCSSファイルを親ファイルからimport
+
+
+	<div class="hoge">
+		ほかのSCSSファイルからの読み込み
+	</div>
+*/
+.hoge {
+  border: 1px solid 999;
+  border-radius: 6px;
+  padding: 10px 15px; }

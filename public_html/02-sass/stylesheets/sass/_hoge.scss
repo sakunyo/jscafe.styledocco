@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/*
+### ほかのSCSSファイルを親ファイルからimport
+
+	<div class="hoge">
+		ほかのSCSSファイルからの読み込み
+	</div>
+*/
+.hoge {
+	border: 1px solid #999;
+	border-radius: 6px;
+	padding: 10px 15px;
+}

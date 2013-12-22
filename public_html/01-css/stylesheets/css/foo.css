@@ -1,0 +1,22 @@
+/*
+## CSSファイルからドキュメントを作る
+
+
+ドキュメントの生成
+`$ node_modules/styledocco/bin/styledocco stylesheets/css`
+
+
+### Markdown によるHTMLソースの表示
+
+iframe の中にドキュメントに使われる HTMLソース が埋め込まれる
+
+
+	<p class="foo">.foo
+		<span class="bar">.bar</span>
+	</p>
+*/
+.foo {
+  color: blue; }
+  .foo .bar {
+    color: white;
+    background-color: green; }

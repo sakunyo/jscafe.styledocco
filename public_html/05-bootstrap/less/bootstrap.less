@@ -1,0 +1,172 @@
+// Core variables and mixins
+@import "../modules/variables";
+@import "../modules/mixins";
+
+// Reset
+@import "../modules/normalize";
+@import "../modules/print";
+
+// Core CSS
+@import "../modules/scaffolding";
+@import "../modules/type";
+@import "../modules/code";
+@import "../modules/grid";
+@import "../modules/tables";
+@import "../modules/forms";
+@import "../modules/buttons";
+
+// Components
+@import "../modules/component-animations";
+@import "../modules/glyphicons";
+@import "../modules/dropdowns";
+@import "../modules/button-groups";
+@import "../modules/input-groups";
+@import "../modules/navs";
+@import "../modules/navbar";
+@import "../modules/breadcrumbs";
+@import "../modules/pagination";
+@import "../modules/pager";
+@import "../modules/labels";
+@import "../modules/badges";
+@import "../modules/jumbotron";
+@import "../modules/thumbnails";
+@import "../modules/alerts";
+@import "../modules/progress-bars";
+@import "../modules/media";
+@import "../modules/list-group";
+@import "../modules/panels";
+@import "../modules/wells";
+@import "../modules/close";
+
+// Components w/ JavaScript
+@import "../modules/modals";
+@import "../modules/tooltip";
+@import "../modules/popovers";
+@import "../modules/carousel";
+
+// Utility classes
+@import "../modules/utilities";
+@import "../modules/responsive-utilities";
+
+/*
+less and bootstrap v3
+
+`$ node_modules/styledocco/bin/styledocco --preprocessor "node_modules/less/bin/lessc" less/`
+
+
+    <div class="container">
+      <h1>h1. Bootstrap heading <small>Secondary text</small></h1>
+      <h2>h2. Bootstrap heading <small>Secondary text</small></h2>
+      <h3>h3. Bootstrap heading <small>Secondary text</small></h3>
+      <h4>h4. Bootstrap heading <small>Secondary text</small></h4>
+      <h5>h5. Bootstrap heading <small>Secondary text</small></h5>
+      <h6>h6. Bootstrap heading <small>Secondary text</small></h6>
+    </div>
+
+
+
+    <p class="text-muted"> Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh. </p>
+    <p class="text-primary"> Nullam id dolor id nibh ultricies vehicula ut id elit. </p>
+    <p class="text-success"> Duis mollis, est non commodo luctus, nisi erat porttitor ligula. </p>
+    <p class="text-info"> Maecenas sed diam eget risus varius blandit sit amet non magna. </p>
+    <p class="text-warning"> Etiam porta sem malesuada magna mollis euismod. </p>
+    <p class="text-danger"> Donec ullamcorper nulla non metus auctor fringilla. </p>
+
+
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+    <div class="container">
+      <div class="row show-grid">
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+      </div>
+      <div class="row show-grid">
+        <div class="col-md-8">.col-md-8</div>
+        <div class="col-md-4">.col-md-4</div>
+      </div>
+      <div class="row show-grid">
+        <div class="col-md-4">.col-md-4</div>
+        <div class="col-md-4">.col-md-4</div>
+        <div class="col-md-4">.col-md-4</div>
+      </div>
+      <div class="row show-grid">
+        <div class="col-md-6">.col-md-6</div>
+        <div class="col-md-6">.col-md-6</div>
+      </div>
+    </div>
+
+    <!-- Standard button -->
+    <button type="button" class="btn btn-default">Default</button>
+
+    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+    <button type="button" class="btn btn-primary">Primary</button>
+
+    <!-- Indicates a successful or positive action -->
+    <button type="button" class="btn btn-success">Success</button>
+
+    <!-- Contextual button for informational alert messages -->
+    <button type="button" class="btn btn-info">Info</button>
+
+    <!-- Indicates caution should be taken with this action -->
+    <button type="button" class="btn btn-warning">Warning</button>
+
+    <!-- Indicates a dangerous or potentially negative action -->
+    <button type="button" class="btn btn-danger">Danger</button>
+
+    <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+    <button type="button" class="btn btn-link">Link</button>
+*/
+.show-grid {
+  margin-bottom: 15px;
+}
+
+.show-grid [class^="col-"] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  background-color: rgba(86, 61, 124, .15);
+  border: 1px solid rgba(86, 61, 124, .2);
+}

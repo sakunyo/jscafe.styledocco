@@ -1,0 +1,14 @@
+/*
+## 状態に基づくCSSをプレビューする
+要素のclass属性に :hover, :focus 指定する
+
+	<p class="foo">not hover</p>
+	<p class="foo :hover">hover</p>
+
+	<a href="#" class="bar">not focus</a>
+	<a href="#" class="bar :focus">focus</a>
+*/
+p,
+a { display: block; margin: 0; padding: 5px; }
+.foo:hover { background-color: #fcff89; }
+.bar:focus { background-color: #87ffd2; }

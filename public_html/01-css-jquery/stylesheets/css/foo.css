@@ -1,0 +1,18 @@
+/*
+## jQuery を使ったドキュメントを作る
+jQueryなどの外部Scriptはhttpリクエストして読み込む
+
+	<div class="box"></div>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript">
+	  $(document).ready(function () {
+	    $(".box").html("ドッコがｷﾀｿﾞｰ ┏(^o^)┛ﾄﾞｺﾄﾞｺ")
+	      .css("backgroundColor", "#ddFFdd");
+	  });
+	</script>
+*/
+.box {
+  padding: 20px; color: #00a01f;
+  font-weight: bold; font-family: sans-serif;
+}

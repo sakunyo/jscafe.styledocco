@@ -1,0 +1,20 @@
+{
+  "name": "jscafe.styledocco",
+  "version": "0.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:sakunyo/jscafe-styledocco.git"
+  },
+  "author": "Sakuya Sugo",
+  "license": "BSD",
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-compass": "~0.7.0",
+    "grunt-contrib-sass": "~0.6.0",
+    "grunt-shell": "~0.6.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "styledocco": "~0.6.5",
+    "less": "~1.5.1"
+  }
+}

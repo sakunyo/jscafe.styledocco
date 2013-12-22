@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+/*
+## .foo block
+.foo > .bar
+
+`$ ./node_modules/.bin/styledocco --verbose true stylesheets/sass/`
+
+
+	<p class="foo">.foo
+		<span class="bar">.bar</span>
+	</p>
+*/
+.foo {
+	color: blue;
+	.bar {
+		background-color: green;
+	}
+}
+
+
+@import "hoge";
+/*
+## .foo and .hoge block
+.foo > .bar and .hoge
+
+	<p class="foo hoge">.foo and hoge
+		<span class="bar">.bar</span>
+	</p>
+*/

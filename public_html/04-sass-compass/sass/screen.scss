@@ -1,0 +1,31 @@
+/*
+## Welcome to Compass.
+
+### Styledocco Document.  
+`$ node_modules/styledocco/bin/styledocco --preprocessor "sass --compass" sass/`
+
+
+In this file you should write your main styles. (or centralize your imports)
+
+Import this file using the following HTML or equivalent:
+
+`<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />`
+*/
+
+@import "compass/reset";
+@import "compass/css3";
+
+/*
+	<div class="block_gradient">
+		gradient
+	</div>
+*/
+.block_gradient {
+	border: 1px solid #cccccc;
+	padding: 20px 20px;
+
+	font-size: 18px;
+
+	border-radius: 10px;
+	@include background(linear-gradient(top, #fcfcfc, #cccccc));
+}
